@@ -1,0 +1,23 @@
+body {
+  color: black;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.index-content-title {
+  color: black;
+  font-family: "Arial", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+.page-content-title {
+  font-family: "Arial", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  color: black;
+}
