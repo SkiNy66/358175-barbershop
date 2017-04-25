@@ -7,7 +7,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container clearfix">
         <nav class="navigation">
           <a class="navigation-logo" href="index.html">
             <img src="img/small-logo.png" width="111" height="24" alt="Барбершоп «Бородинский»">
@@ -35,13 +35,15 @@
         </div>
       </div>
     </header>
-    <main class="container">
-      <h1>СРЕДСТВА ДЛЯ УХОДА</h1>
-      <ul class="breadcrumb">
-        <li><a href="#">ГЛАВНАЯ</a></li>
-        <li><a href="#">МАГАЗИН</a></li>
-        <li>СРЕДСТВА ДЛЯ УХОДА</li>
-      </ul>
+    <main class="container clearfix">
+      <div class="second-nav">
+        <h1>СРЕДСТВА ДЛЯ УХОДА</h1>
+        <ul class="breadcrumb">
+          <li><a href="#">ГЛАВНАЯ</a></li>
+          <li><a href="#">МАГАЗИН</a></li>
+          <li>СРЕДСТВА ДЛЯ УХОДА</li>
+        </ul>
+      </div>
       <section class="filter">
         <h2>ПРОИЗВОДИТЕЛИ:</h2>
         <input type="checkbox" name="baxter-of-california" id="company-baxter-of-california" checked>
@@ -132,16 +134,19 @@
             <a href="#">Купить</a>
           </div>
         </article>
-        <ul class="items-list">
+      </section>
+      <div class="items-list">
+        <ul>
           <li><a href="#">1</a></li>
           <li><a href="#" class="active">2</a></li>
           <li><a href="#">3</a></li>
           <li><a href="#">4</a></li>
-        </ul>
-      </section>
+        </ul
+      </div>
+      
     </main>
     <footer class="footer">
-      <div class="container">
+      <div class="container clearfix">
         <section class="footer-contacts">
           Барбершоп «Бородинский»<br>
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
