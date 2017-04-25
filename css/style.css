@@ -31,25 +31,22 @@ body {
 
 .catalog 
   .header {
-    width: 1200px;
     margin-bottom: 55px;
   }
 
   .container {
     width: 940px;
-    margin: 0 130px;
+    margin: 0 auto;
   }
 
   .navigation {
     float: left;
     width: 780px;
-    min-height: 70px;
   }
 
   .user-block {
     float: right;
     width: 140px;
-    min-height: 70px;
   }
 
   .second-nav {
@@ -103,7 +100,6 @@ body {
   }
 
   .footer {
-    width: 1200px;
     margin-top: 51px;
     padding-top: 60px;
     padding-bottom: 40px;
@@ -127,13 +123,12 @@ body {
 
 .catalog-item 
   .header {
-    width: 1200px;
     margin-bottom: 60px;
   }
 
   .container {
     width: 940px;
-    margin: 0 130px;
+    margin: 0 auto;
   }
 
   .navigation {
@@ -167,7 +162,6 @@ body {
   }
 
   .footer {
-    width: 1200px;
     margin-top: 50px;
     padding-top: 60px;
     padding-bottom: 40px;
